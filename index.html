@@ -1,0 +1,1713 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header class="wow animate__animated animate__zoomInRight">
+        <div class="header-area">
+            <div class="main-header ">
+                <div class="header-top ">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-12">
+                                <div class="d-flex justify-content-between align-items-center flex-sm">
+                                    <div class="header-info-left d-flex align-items-center">
+
+                                        <div class="logo">
+                                            <a href="index.html"><img src="images/logo.png" alt></a>
+                                        </div>
+
+                                        <form action="#" class="form-box">
+                                            <input type="text" name="Search"
+                                                placeholder="Search book by author or publisher">
+                                            <div class="search-icon">
+                                                <i class="ti-search"></i>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="header-info-right d-flex align-items-center">
+                                        <ul>
+                                            <li><a href="#">FAQ</a></li>
+                                            <li><a href="#">Track Order</a></li>
+                                            <li class="shopping-card">
+                                                <a href="cart.html"><img src="images/cart.svg" alt></a>
+                                            </li>
+                                            <li><a href="login.html" class="btn header-btn">Sign in</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-bottom  header-sticky">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-xl-12">
+
+                                <div class="logo2">
+                                    <a href="index.html"><img src="images/logo.png" alt></a>
+                                </div>
+
+                                <div class="main-menu text-center ">
+                                    <nav class="navbar navbar-expand-lg navbar-light  container">
+                                        <div class="container-fluid">
+                                            <button class="navbar-toggler ms-auto" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                                                aria-controls="navbarSupportedContent" aria-expanded="false"
+                                                aria-label="Toggle navigation"
+                                                style="position: absolute; top: -40px; right: 0px;">
+                                                <span class="navbar-toggler-icon"></span>
+                                            </button>
+                                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                                <ul class="navbar-nav m-auto text-center">
+                                                    <li class="nav-item">
+                                                        <a href="index.html" class="nav-link ">Home</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a href="categories.html" class="nav-link ">Categories</a>
+                                                    </li>
+
+                                                    <li class="nav-item">
+                                                        <a href="about.html" class="nav-link ">About</a>
+                                                    </li>
+                                                    <li><a href="#">Pages</a>
+                                                        <ul class="submenu">
+                                                            <li><a href="login.html">login</a></li>
+                                                            <li><a href="cart.html">Cart</a></li>
+                                                            <li><a href="checkout.html">Checkout</a></li>
+                                                            <li><a href="book-details.html">book Details</a></li>
+                                                            <li><a href="blog_details.html">Blog Details</a></li>
+                                                            <li><a href="elements.html">Element</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a href="blog.html" class="nav-link">Blog</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a href="contact.html" class="nav-link">Contect</a>
+                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </nav>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-12">
+                                <div class="mobile_menu d-block d-lg-none"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Swiper -->
+    <div class="slider-area ">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="slider-active dot-style">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="single-slider slider-height slider-bg1 d-flex align-items-center">
+                                        <div class="container">
+                                            <div class="row justify-content-center">
+                                                <div class="col-xxl-4 col-xl-4 col-lg-5 col-md-6 col-sm-7">
+                                                    <div class="hero-caption text-center">
+                                                        <span data-animation="fadeInUp" data-delay=".2s">Science
+                                                            Fiction</span>
+                                                        <h1 data-animation="fadeInUp" data-delay=".4s">The History<br>
+                                                            of Phipino</h1>
+                                                        <a href="#" class="btn hero-btn" data-animation="bounceIn"
+                                                            data-delay=".8s">Browse Store</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="single-slider slider-height slider-bg2 d-flex align-items-center">
+                                        <div class="container">
+                                            <div class="row justify-content-center">
+                                                <div class="col-xxl-4 col-xl-4 col-lg-5 col-md-6 col-sm-7">
+                                                    <div class="hero-caption text-center">
+                                                        <span data-animation="fadeInUp" data-delay=".2s">Science
+                                                            Fiction</span>
+                                                        <h1 data-animation="fadeInUp" data-delay=".4s">The History<br>
+                                                            of Phipino</h1>
+                                                        <a href="#" class="btn hero-btn" data-animation="bounceIn"
+                                                            data-delay=".8s">Browse Store</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="single-slider slider-height slider-bg3 d-flex align-items-center">
+                                        <div class="container">
+                                            <div class="row justify-content-center">
+                                                <div class="col-xxl-4 col-xl-4 col-lg-5 col-md-6 col-sm-7">
+                                                    <div class="hero-caption text-center">
+                                                        <span data-animation="fadeInUp" data-delay=".2s">Science
+                                                            Fiction</span>
+                                                        <h1 data-animation="fadeInUp" data-delay=".4s">The History<br>
+                                                            of Phipino</h1>
+                                                        <a href="#" class="btn hero-btn" data-animation="bounceIn"
+                                                            data-delay=".8s">Browse Store</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+             
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+
+                        <!-- Swiper JS -->
+                        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+                        <main>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="best-selling section-bg wow animate__animated animate__fadeInTopLeft">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-7 col-lg-8">
+                    <div class="section-tittle text-center mb-55">
+                        <h2>Best Selling Books Ever</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="selling-active">
+
+
+
+                        <section class="regular slider">
+                            <div>
+
+                                <div class="properties pb-20">
+                                    <div class="properties-card">
+                                        <div class="properties-img">
+                                            <a href="book-details.html"><img src="images/best_selling1.jpg" alt></a>
+                                        </div>
+                                        <div class="properties-caption">
+                                            <h3><a href="book-details.html">Moon Dance</a></h3>
+                                            <p>J. R Rain</p>
+                                            <div
+                                                class="properties-footer d-flex justify-content-between align-items-center">
+                                                <div class="review">
+                                                    <div class="rating">
+                                                        <i class="bi bi-star-fill"></i>
+                                                        <i class="bi bi-star-fill"></i>
+                                                        <i class="bi bi-star-fill"></i>
+                                                        <i class="bi bi-star-fill"></i>
+                                                        <i class="bi bi-star-half"></i>
+                                                    </div>
+                                                                    <p>(<span class="counter">120</span> Review)</p> 
+                                                </div>
+                                                <div class="price">
+                                                                                                                        <span>$<span class="counter">50</span></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+
+                                <div class="properties pb-20">
+                                    <div class="properties-card">
+                                        <div class="properties-img">
+                                            <a href="book-details.html"><img src="images/best_selling2.jpg" alt></a>
+                                        </div>
+                                        <div class="properties-caption">
+                                            <h3><a href="book-details.html">Moon Dance</a></h3>
+                                            <p>J. R Rain</p>
+                                            <div
+                                                class="properties-footer d-flex justify-content-between align-items-center">
+                                                <div class="review">
+                                                    <div class="rating">
+                                                        <i class="bi bi-star-fill"></i>
+                                                        <i class="bi bi-star-fill"></i>
+                                                        <i class="bi bi-star-fill"></i>
+                                                        <i class="bi bi-star-fill"></i>
+                                                        <i class="bi bi-star-half"></i>
+                                                    </div>
+                                                                    <p>(<span class="counter">120</span> Review)</p> 
+                                                </div>
+                                                <div class="price">
+                                                                                                                        <span>$<span class="counter">50</span></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="properties pb-20">
+                                    <div class="properties-card">
+                                        <div class="properties-img">
+                                            <a href="book-details.html"><img src="images/best_selling3.jpg" alt></a>
+                                        </div>
+                                        <div class="properties-caption">
+                                            <h3><a href="book-details.html">Moon Dance</a></h3>
+                                            <p>J. R Rain</p>
+                                            <div
+                                                class="properties-footer d-flex justify-content-between align-items-center">
+                                                <div class="review">
+                                                    <div class="rating">
+                                                        <i class="bi bi-star"></i>
+                                                        <i class="bi bi-star"></i>
+                                                        <i class="bi bi-star"></i>
+                                                        <i class="bi bi-star"></i>
+                                                        <i class="bi bi-star-half-alt"></i>
+                                                    </div>
+                                                                    <p>(<span class="counter">120</span> Review)</p> 
+                                                </div>
+                                                <div class="price">
+                                                                                                                        <span>$<span class="counter">50</span></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="properties pb-20">
+                                    <div class="properties-card">
+                                        <div class="properties-img">
+                                            <a href="book-details.html"><img src="images/best_selling4.jpg" alt></a>
+                                        </div>
+                                        <div class="properties-caption">
+                                            <h3><a href="book-details.html">Moon Dance</a></h3>
+                                            <p>J. R Rain</p>
+                                            <div
+                                                class="properties-footer d-flex justify-content-between align-items-center">
+                                                <div class="review">
+                                                    <div class="rating">
+                                                        <i class="bi bi-star"></i>
+                                                        <i class="bi bi-star"></i>
+                                                        <i class="bi bi-star"></i>
+                                                        <i class="bi bi-star"></i>
+                                                        <i class="bi bi-star-half-alt"></i>
+                                                    </div>
+                                                                    <p>(<span class="counter">120</span> Review)</p> 
+                                                </div>
+                                                <div class="price">
+                                                                                                                        <span>$<span class="counter">50</span></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="properties pb-20">
+                                    <div class="properties-card">
+                                        <div class="properties-img">
+                                            <a href="book-details.html"><img src="images/best_selling5.jpg" alt></a>
+                                        </div>
+                                        <div class="properties-caption">
+                                            <h3><a href="book-details.html">Moon Dance</a></h3>
+                                            <p>J. R Rain</p>
+                                            <div
+                                                class="properties-footer d-flex justify-content-between align-items-center">
+                                                <div class="review">
+                                                    <div class="rating">
+                                                        <i class="bi bi-star"></i>
+                                                        <i class="bi bi-star"></i>
+                                                        <i class="bi bi-star"></i>
+                                                        <i class="bi bi-star"></i>
+                                                        <i class="bi bi-star-half-alt"></i>
+                                                    </div>
+                                                                    <p>(<span class="counter">120</span> Review)</p> 
+                                                </div>
+                                                <div class="price">
+                                                                                                                        <span>$<span class="counter">50</span></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="properties pb-20">
+                                    <div class="properties-card">
+                                        <div class="properties-img">
+                                            <a href="book-details.html"><img src="images/best_selling6.jpg" alt></a>
+                                        </div>
+                                        <div class="properties-caption">
+                                            <h3><a href="book-details.html">Moon Dance</a></h3>
+                                            <p>J. R Rain</p>
+                                            <div
+                                                class="properties-footer d-flex justify-content-between align-items-center">
+                                                <div class="review">
+                                                    <div class="rating">
+                                                        <i class="bi bi-star"></i>
+                                                        <i class="bi bi-star"></i>
+                                                        <i class="bi bi-star"></i>
+                                                        <i class="bi bi-star"></i>
+                                                        <i class="bi bi-star-half-alt"></i>
+                                                    </div>
+                                                                    <p>(<span class="counter">120</span> Review)</p> 
+                                                </div>
+                                                <div class="price">
+                                                                                                                        <span>$<span class="counter">50</span></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <div class="services-area2 top-padding">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-xl-9 col-lg-9 col-md-8">
+                                        <div class="row">
+
+                                            <div class="col-xl-12">
+                                                <div
+                                                    class="section-tittle d-flex justify-content-between align-items-center mb-40">
+                                                    <h2 class="mb-0">Featured This Week</h2>
+                                                    <a href="#" class="browse-btn">View All</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-xl-12">
+                                                <div class="services-active">
+
+
+
+                                                    <div class="swiper mySwiper wow animate__animated animate__fadeInTopLeft">
+                                                        <div class="swiper-wrapper">
+                                                            <div class="swiper-slide">
+                                                                <div class="single-services d-flex align-items-center">
+                                                                    <div class="features-img">
+                                                                        <img src="images/best-books1.jpg" alt>
+                                                                    </div>
+                                                                    <div class="features-caption">
+                                                                        <!-- <img src="images/logo.svg" alt> -->
+                                                                        <h3>The Rage of Dragons</h3>
+                                                                        <p>By Evan Winter</p>
+                                                                        <div class="price">
+                                                                            <span>$50.00</span>
+                                                                        </div>
+                                                                        <div class="review">
+                                                                            <div class="rating">
+                                                                                <i class="bi bi-star-fill"></i>
+                                                                                <i class="bi bi-star-fill"></i>
+                                                                                <i class="bi bi-star-fill"></i>
+                                                                                <i class="bi bi-star-fill"></i>
+                                                                                <i class="bi bi-star-half"></i>
+                                                                            </div>
+                                                                            <p>(<span class="counter">120</span> Review)</p> 
+                                                                        </div>
+                                                                        <a href="book-details.html"
+                                                                            class="border-btn">View Details</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                                <div class="single-services d-flex align-items-center">
+                                                                    <div class="features-img">
+                                                                        <img src="images/best-books1.jpg" alt>
+                                                                    </div>
+                                                                    <div class="features-caption">
+                                                                        <!-- <img src="images/logo.svg" alt> -->
+                                                                        <h3>The Rage of Dragons</h3>
+                                                                        <p>By Evan Winter</p>
+                                                                        <div class="price">
+                                                                            <span>$50.00</span>
+                                                                        </div>
+                                                                        <div class="review">
+                                                                            <div class="rating">
+                                                                                <i class="bi bi-star-fill"></i>
+                                                                                <i class="bi bi-star-fill"></i>
+                                                                                <i class="bi bi-star-fill"></i>
+                                                                                <i class="bi bi-star-fill"></i>
+                                                                                <i class="bi bi-star-half"></i>
+                                                                            </div>
+                                                                            <p>(<span class="counter">120</span> Review)</p> 
+                                                                        </div>
+                                                                        <a href="book-details.html"
+                                                                            class="border-btn">View Details</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+
+
+                                                            <div class="swiper-slide">
+                                                                <div class="single-services d-flex align-items-center">
+                                                                    <div class="features-img">
+                                                                        <img src="images//best-books1.jpg" alt>
+                                                                    </div>
+                                                                    <div class="features-caption">
+                                                                        <!-- <img src="images/icon/logo.svg" alt> -->
+                                                                        <h3>The Rage of Dragons</h3>
+                                                                        <p>By Evan Winter</p>
+                                                                        <div class="price">
+                                                                            <span>$50.00</span>
+                                                                        </div>
+                                                                        <div class="review">
+                                                                            <div class="rating">
+                                                                                <i class="bi bi-star-fill"></i>
+                                                                                <i class="bi bi-star-fill"></i>
+                                                                                <i class="bi bi-star-fill"></i>
+                                                                                <i class="bi bi-star-fill"></i>
+                                                                                <i class="bi bi-star-half"></i>
+                                                                            </div>
+                                                                            <p>(<span class="counter">120</span> Review)</p> 
+                                                                        </div>
+                                                                        <a href="book-details.html"
+                                                                            class="border-btn">View Details</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                                <div class="single-services d-flex align-items-center">
+                                                                    <div class="features-img">
+                                                                        <!-- <img src="images//best-books1.jpg" alt> -->
+                                                                    </div>
+                                                                    <div class="features-caption">
+                                                                        <img src="images/icon/logo.svg" alt>
+                                                                        <h3>The Rage of Dragons</h3>
+                                                                        <p>By Evan Winter</p>
+                                                                        <div class="price">
+                                                                            <span>$50.00</span>
+                                                                        </div>
+                                                                        <div class="review">
+                                                                            <div class="rating">
+                                                                                <i class="bi bi-star-fill"></i>
+                                                                                <i class="bi bi-star-fill"></i>
+                                                                                <i class="bi bi-star-fill"></i>
+                                                                                <i class="bi bi-star-fill"></i>
+                                                                                <i class="bi bi-star-half"></i>
+                                                                            </div>
+                                                                            <p>(<span class="counter">120</span> Review)</p> 
+                                                                        </div>
+                                                                        <a href="book-details.html"
+                                                                            class="border-btn">View Details</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="swiper-button-next"></div>
+                                                        <div class="swiper-button-prev"></div>
+                                                    </div>
+
+                                                    <!-- Swiper JS -->
+                                                    <script
+                                                        src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-9">
+
+                                        <div class="google-add">
+                                            <img src="images//ad.jpg" alt class="w-100">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <section class="our-client section-padding best-selling wow animate__animated animate__slideInUp">
+                            <div class="container">
+                                <div class="row justify-content-between">
+                                    <div class="col-xl-5 col-lg-5 col-md-12">
+
+                                        <div class="section-tittle  mb-40">
+                                            <h2>Latest Published items</h2>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-7 col-lg-7 col-md-12">
+                                        <div class="nav-button mb-40">
+
+                                            <nav>
+                                                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                                    <a class="nav-link active" id="nav-one-tab" data-bs-toggle="tab"
+                                                        href="#nav-one" role="tab" aria-controls="nav-one"
+                                                        aria-selected="true">All</a>
+                                                    <a class="nav-link" id="nav-two-tab" data-bs-toggle="tab"
+                                                        href="#nav-two" role="tab" aria-controls="nav-two"
+                                                        aria-selected="false">Horror</a>
+                                                    <a class="nav-link" id="nav-three-tab" data-bs-toggle="tab"
+                                                        href="#nav-three" role="tab" aria-controls="nav-three"
+                                                        aria-selected="false">Thriller</a>
+                                                    <a class="nav-link" id="nav-four-tab" data-bs-toggle="tab"
+                                                        href="#nav-four" role="tab" aria-controls="nav-four"
+                                                        aria-selected="false">Science Fiction</a>
+                                                    <a class="nav-link" id="nav-five-tab" data-bs-toggle="tab"
+                                                        href="#nav-five" role="tab" aria-controls="nav-five"
+                                                        aria-selected="false">History</a>
+                                                </div>
+                                            </nav>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container wow animate__animated animate__slideInRight">
+
+                                <div class="tab-content" id="nav-tabContent">
+                                    <div class="tab-pane fade show active" id="nav-one" role="tabpanel"
+                                        aria-labelledby="nav-one-tab">
+
+                                        <div class="row">
+                                            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                                                <div class="properties pb-30">
+                                                    <div class="properties-card">
+                                                        <div class="properties-img">
+                                                            <a href="book-details.html"><img
+                                                                    src="images//best_selling7.jpg" alt></a>
+                                                        </div>
+                                                        <div class="properties-caption properties-caption2">
+                                                            <h3><a href="book-details.html">Moon Dance</a></h3>
+                                                            <p>J. R Rain</p>
+                                                            <div
+                                                                class="properties-footer d-flex justify-content-between align-items-center">
+                                                                <div class="review">
+                                                                    <div class="rating">
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-half"></i>
+                                                                    </div>
+                                                                                    <p>(<span class="counter">120</span> Review)</p> 
+                                                                </div>
+                                                                <div class="price">
+                                                                    <span>$<span class="counter">50</span></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                                                <div class="properties pb-30">
+                                                    <div class="properties-card">
+                                                        <div class="properties-img">
+                                                            <a href="book-details.html"><img
+                                                                    src="images/best_selling8.jpg" alt></a>
+                                                        </div>
+                                                        <div class="properties-caption properties-caption2">
+                                                            <h3><a href="book-details.html">Moon Dance</a></h3>
+                                                            <p>J. R Rain</p>
+                                                            <div
+                                                                class="properties-footer d-flex justify-content-between align-items-center">
+                                                                <div class="review">
+                                                                    <div class="rating">
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-half"></i>
+                                                                    </div>
+                                                                    <p>(<span class="cou">120</span> Review)</p>
+                                                                </div>
+                                                                <div class="price">
+                                                                  <span>$<span class="counter">50</span></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                                                <div class="properties pb-30">
+                                                    <div class="properties-card">
+                                                        <div class="properties-img">
+                                                            <a href="book-details.html"><img
+                                                                    src="images/best_selling6.jpg" alt></a>
+                                                        </div>
+                                                        <div class="properties-caption properties-caption2">
+                                                            <h3><a href="book-details.html">Moon Dance</a></h3>
+                                                            <p>J. R Rain</p>
+                                                            <div
+                                                                class="properties-footer d-flex justify-content-between align-items-center">
+                                                                <div class="review">
+                                                                    <div class="rating">
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-half"></i>
+                                                                    </div>
+                                                                                    <p>(<span class="counter">120</span> Review)</p> 
+                                                                </div>
+                                                                <div class="price">
+                                                                <span>$<span class="counter">50</span></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                                                <div class="properties pb-30">
+                                                    <div class="properties-card">
+                                                        <div class="properties-img">
+                                                            <a href="book-details.html"><img
+                                                                    src="images/best_selling4.jpg" alt></a>
+                                                        </div>
+                                                        <div class="properties-caption properties-caption2">
+                                                            <h3><a href="book-details.html">Moon Dance</a></h3>
+                                                            <p>J. R Rain</p>
+                                                            <div
+                                                                class="properties-footer d-flex justify-content-between align-items-center">
+                                                                <div class="review">
+                                                                    <div class="rating">
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-half"></i>
+                                                                    </div>
+                                                                    <p>(<span class="counter">120</span> Review)</p>
+                                                                </div>
+                                                                <div class="price">
+                                                                  <span>$<span class="counter">50</span></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                                                <div class="properties pb-30">
+                                                    <div class="properties-card">
+                                                        <div class="properties-img">
+                                                            <a href="book-details.html"><img
+                                                                    src="images/best_selling9.jpg" alt></a>
+                                                        </div>
+                                                        <div class="properties-caption properties-caption2">
+                                                            <h3><a href="book-details.html">Moon Dance</a></h3>
+                                                            <p>J. R Rain</p>
+                                                            <div class="properties-footer d-flex justify-content-between align-items-center">
+                                                                <div class="review">
+                                                                    <div class="rating">
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-half"></i>
+                                                                    </div>
+                                                                                    <p>(<span class="counter">120</span> Review)</p> 
+                                                                </div>
+                                                                <div class="price">
+                                                                                                                                        <span>$<span class="counter">50</span></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                                                <div class="properties pb-30">
+                                                    <div class="properties-card">
+                                                        <div class="properties-img">
+                                                            <a href="book-details.html"><img
+                                                                    src="images/best_selling2.jpg" alt></a>
+                                                        </div>
+                                                        <div class="properties-caption properties-caption2">
+                                                            <h3><a href="book-details.html">Moon Dance</a></h3>
+                                                            <p>J. R Rain</p>
+                                                            <div
+                                                                class="properties-footer d-flex justify-content-between align-items-center">
+                                                                <div class="review">
+                                                                    <div class="rating">
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-half"></i>
+                                                                    </div>
+                                                                                    <p>(<span class="counter">120</span> Review)</p> 
+                                                                </div>
+                                                                <div class="price">
+                                                                                                                                        <span>$<span class="counter">50</span></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="nav-two" role="tabpanel"
+                                        aria-labelledby="nav-two-tab">
+
+                                        <div class="row">
+                                            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                                                <div class="properties pb-30">
+                                                    <div class="properties-card">
+                                                        <div class="properties-img">
+                                                            <a href="book-details.html"><img
+                                                                    src="images/best_selling4.jpg" alt></a>
+                                                        </div>
+                                                        <div class="properties-caption properties-caption2">
+                                                            <h3><a href="book-details.html">Moon Dance</a></h3>
+                                                            <p>J. R Rain</p>
+                                                            <div
+                                                                class="properties-footer d-flex justify-content-between align-items-center">
+                                                                <div class="review">
+                                                                    <div class="rating">
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-half"></i>
+                                                                    </div>
+                                                                                    <p>(<span class="counter">120</span> Review)</p> 
+                                                                </div>
+                                                                <div class="price">
+                                                                                                                                        <span>$<span class="counter">50</span></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                                                <div class="properties pb-30">
+                                                    <div class="properties-card">
+                                                        <div class="properties-img">
+                                                            <a href="book-details.html"><img
+                                                                    src="images/best_selling9.jpg" alt></a>
+                                                        </div>
+                                                        <div class="properties-caption properties-caption2">
+                                                            <h3><a href="book-details.html">Moon Dance</a></h3>
+                                                            <p>J. R Rain</p>
+                                                            <div
+                                                                class="properties-footer d-flex justify-content-between align-items-center">
+                                                                <div class="review">
+                                                                    <div class="rating">
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi  bi-star-half"></i>
+                                                                    </div>
+                                                                                    <p>(<span class="counter">120</span> Review)</p> 
+                                                                </div>
+                                                                <div class="price">
+                                                                                                                                        <span>$<span class="counter">50</span></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                                                <div class="properties pb-30">
+                                                    <div class="properties-card">
+                                                        <div class="properties-img">
+                                                            <a href="book-details.html"><img
+                                                                    src="images/best_selling2.jpg" alt></a>
+                                                        </div>
+                                                        <div class="properties-caption properties-caption2">
+                                                            <h3><a href="book-details.html">Moon Dance</a></h3>
+                                                            <p>J. R Rain</p>
+                                                            <div
+                                                                class="properties-footer d-flex justify-content-between align-items-center">
+                                                                <div class="review">
+                                                                    <div class="rating">
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-half"></i>
+                                                                    </div>
+                                                                                    <p>(<span class="counter">120</span> Review)</p> 
+                                                                </div>
+                                                                <div class="price">
+                                                                                                                                        <span>$<span class="counter">50</span></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                                                <div class="properties pb-30">
+                                                    <div class="properties-card">
+                                                        <div class="properties-img">
+                                                            <a href="book-details.html"><img
+                                                                    src="images/best_selling7.jpg" alt></a>
+                                                        </div>
+                                                        <div class="properties-caption properties-caption2">
+                                                            <h3><a href="book-details.html">Moon Dance</a></h3>
+                                                            <p>J. R Rain</p>
+                                                            <div
+                                                                class="properties-footer d-flex justify-content-between align-items-center">
+                                                                <div class="review">
+                                                                    <div class="rating">
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-half"></i>
+                                                                    </div>
+                                                                                    <p>(<span class="counter">120</span> Review)</p> 
+                                                                </div>
+                                                                <div class="price">
+                                                                                                                                        <span>$<span class="counter">50</span></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                                                <div class="properties pb-30">
+                                                    <div class="properties-card">
+                                                        <div class="properties-img">
+                                                            <a href="book-details.html"><img
+                                                                    src="images/best_selling8.jpg" alt></a>
+                                                        </div>
+                                                        <div class="properties-caption properties-caption2">
+                                                            <h3><a href="book-details.html">Moon Dance</a></h3>
+                                                            <p>J. R Rain</p>
+                                                            <div
+                                                                class="properties-footer d-flex justify-content-between align-items-center">
+                                                                <div class="review">
+                                                                    <div class="rating">
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-half"></i>
+                                                                    </div>
+                                                                                    <p>(<span class="counter">120</span> Review)</p> 
+                                                                </div>
+                                                                <div class="price">
+                                                                                                                                        <span>$<span class="counter">50</span></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                                                <div class="properties pb-30">
+                                                    <div class="properties-card">
+                                                        <div class="properties-img">
+                                                            <a href="book-details.html"><img
+                                                                    src="images/best_selling6.jpg" alt></a>
+                                                        </div>
+                                                        <div class="properties-caption properties-caption2">
+                                                            <h3><a href="book-details.html">Moon Dance</a></h3>
+                                                            <p>J. R Rain</p>
+                                                            <div
+                                                                class="properties-footer d-flex justify-content-between align-items-center">
+                                                                <div class="review">
+                                                                    <div class="rating">
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-half"></i>
+                                                                    </div>
+                                                                                    <p>(<span class="counter">120</span> Review)</p> 
+                                                                </div>
+                                                                <div class="price">
+                                                                                                                                        <span>$<span class="counter">50</span></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="nav-three" role="tabpanel"
+                                        aria-labelledby="nav-three-tab">
+
+                                        <div class="row">
+                                            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                                                <div class="properties pb-30">
+                                                    <div class="properties-card">
+                                                        <div class="properties-img">
+                                                            <a href="book-details.html"><img
+                                                                    src="images/best_selling7.jpg" alt></a>
+                                                        </div>
+                                                        <div class="properties-caption properties-caption2">
+                                                            <h3><a href="book-details.html">Moon Dance</a></h3>
+                                                            <p>J. R Rain</p>
+                                                            <div
+                                                                class="properties-footer d-flex justify-content-between align-items-center">
+                                                                <div class="review">
+                                                                    <div class="rating">
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-half"></i>
+                                                                    </div>
+                                                                                    <p>(<span class="counter">120</span> Review)</p> 
+                                                                </div>
+                                                                <div class="price">
+                                                                                                                                        <span>$<span class="counter">50</span></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                                                <div class="properties pb-30">
+                                                    <div class="properties-card">
+                                                        <div class="properties-img">
+                                                            <a href="book-details.html"><img
+                                                                    src="images/best_selling8.jpg" alt></a>
+                                                        </div>
+                                                        <div class="properties-caption properties-caption2">
+                                                            <h3><a href="book-details.html">Moon Dance</a></h3>
+                                                            <p>J. R Rain</p>
+                                                            <div
+                                                                class="properties-footer d-flex justify-content-between align-items-center">
+                                                                <div class="review">
+                                                                    <div class="rating">
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-half"></i>
+                                                                    </div>
+                                                                                    <p>(<span class="counter">120</span> Review)</p> 
+                                                                </div>
+                                                                <div class="price">
+                                                                                                                                        <span>$<span class="counter">50</span></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                                                <div class="properties pb-30">
+                                                    <div class="properties-card">
+                                                        <div class="properties-img">
+                                                            <a href="book-details.html"><img
+                                                                    src="images/best_selling6.jpg" alt></a>
+                                                        </div>
+                                                        <div class="properties-caption properties-caption2">
+                                                            <h3><a href="book-details.html">Moon Dance</a></h3>
+                                                            <p>J. R Rain</p>
+                                                            <div
+                                                                class="properties-footer d-flex justify-content-between align-items-center">
+                                                                <div class="review">
+                                                                    <div class="rating">
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-half"></i>
+                                                                    </div>
+                                                                                    <p>(<span class="counter">120</span> Review)</p> 
+                                                                </div>
+                                                                <div class="price">
+                                                                                                                                        <span>$<span class="counter">50</span></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                                                <div class="properties pb-30">
+                                                    <div class="properties-card">
+                                                        <div class="properties-img">
+                                                            <a href="book-details.html"><img
+                                                                    src="images/best_selling4.jpg" alt></a>
+                                                        </div>
+                                                        <div class="properties-caption properties-caption2">
+                                                            <h3><a href="book-details.html">Moon Dance</a></h3>
+                                                            <p>J. R Rain</p>
+                                                            <div
+                                                                class="properties-footer d-flex justify-content-between align-items-center">
+                                                                <div class="review">
+                                                                    <div class="rating">
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-half"></i>
+                                                                    </div>
+                                                                                    <p>(<span class="counter">120</span> Review)</p> 
+                                                                </div>
+                                                                <div class="price">
+                                                                                                                                        <span>$<span class="counter">50</span></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                                                <div class="properties pb-30">
+                                                    <div class="properties-card">
+                                                        <div class="properties-img">
+                                                            <a href="book-details.html"><img
+                                                                    src="images/best_selling9.jpg" alt></a>
+                                                        </div>
+                                                        <div class="properties-caption properties-caption2">
+                                                            <h3><a href="book-details.html">Moon Dance</a></h3>
+                                                            <p>J. R Rain</p>
+                                                            <div
+                                                                class="properties-footer d-flex justify-content-between align-items-center">
+                                                                <div class="review">
+                                                                    <div class="rating">
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi bi-star-half"></i>
+                                                                    </div>
+                                                                                    <p>(<span class="counter">120</span> Review)</p> 
+                                                                </div>
+                                                                <div class="price">
+                                                                                                                                        <span>$<span class="counter">50</span></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                                                <div class="properties pb-30">
+                                                    <div class="properties-card">
+                                                        <div class="properties-img">
+                                                            <a href="book-details.html"><img
+                                                                    src="images/best_selling2.jpg" alt></a>
+                                                        </div>
+                                                        <div class="properties-caption properties-caption2">
+                                                            <h3><a href="book-details.html">Moon Dance</a></h3>
+                                                            <p>J. R Rain</p>
+                                                            <div
+                                                                class="properties-footer d-flex justify-content-between align-items-center">
+                                                                <div class="review">
+                                                                    <div class="rating">
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-half"></i>
+                                                                    </div>
+                                                                                    <p>(<span class="counter">120</span> Review)</p> 
+                                                                </div>
+                                                                <div class="price">
+                                                                                                                                        <span>$<span class="counter">50</span></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade wow animate__animated animate__slideInRight" id="nav-four" role="tabpanel"
+                                        aria-labelledby="nav-four-tab">
+
+                                        <div class="row">
+                                            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                                                <div class="properties pb-30">
+                                                    <div class="properties-card">
+                                                        <div class="properties-img">
+                                                            <a href="book-details.html"><img
+                                                                    src="images/best_selling9.jpg" alt></a>
+                                                        </div>
+                                                        <div class="properties-caption properties-caption2">
+                                                            <h3><a href="book-details.html">Moon Dance</a></h3>
+                                                            <p>J. R Rain</p>
+                                                            <div
+                                                                class="properties-footer d-flex justify-content-between align-items-center">
+                                                                <div class="review">
+                                                                    <div class="rating">
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-half"></i>
+                                                                    </div>
+                                                                                    <p>(<span class="counter">120</span> Review)</p> 
+                                                                </div>
+                                                                <div class="price">
+                                                                                                                                        <span>$<span class="counter">50</span></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                                                <div class="properties pb-30">
+                                                    <div class="properties-card">
+                                                        <div class="properties-img">
+                                                            <a href="book-details.html"><img
+                                                                    src="images/best_selling2.jpg" alt></a>
+                                                        </div>
+                                                        <div class="properties-caption properties-caption2">
+                                                            <h3><a href="book-details.html">Moon Dance</a></h3>
+                                                            <p>J. R Rain</p>
+                                                            <div
+                                                                class="properties-footer d-flex justify-content-between align-items-center">
+                                                                <div class="review">
+                                                                    <div class="rating">
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-half"></i>
+                                                                    </div>
+                                                                                    <p>(<span class="counter">120</span> Review)</p> 
+                                                                </div>
+                                                                <div class="price">
+                                                                                                                                        <span>$<span class="counter">50</span></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                                                <div class="properties pb-30">
+                                                    <div class="properties-card">
+                                                        <div class="properties-img">
+                                                            <a href="book-details.html"><img
+                                                                    src="images/best_selling7.jpg" alt></a>
+                                                        </div>
+                                                        <div class="properties-caption properties-caption2">
+                                                            <h3><a href="book-details.html">Moon Dance</a></h3>
+                                                            <p>J. R Rain</p>
+                                                            <div
+                                                                class="properties-footer d-flex justify-content-between align-items-center">
+                                                                <div class="review">
+                                                                    <div class="rating">
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-half"></i>
+                                                                    </div>
+                                                                                    <p>(<span class="counter">120</span> Review)</p> 
+                                                                </div>
+                                                                <div class="price">
+                                                                                                                                        <span>$<span class="counter">50</span></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                                                <div class="properties pb-30">
+                                                    <div class="properties-card">
+                                                        <div class="properties-img">
+                                                            <a href="book-details.html"><img
+                                                                    src="images/best_selling8.jpg" alt></a>
+                                                        </div>
+                                                        <div class="properties-caption properties-caption2">
+                                                            <h3><a href="book-details.html">Moon Dance</a></h3>
+                                                            <p>J. R Rain</p>
+                                                            <div
+                                                                class="properties-footer d-flex justify-content-between align-items-center">
+                                                                <div class="review">
+                                                                    <div class="rating">
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-half"></i>
+                                                                    </div>
+                                                                                    <p>(<span class="counter">120</span> Review)</p> 
+                                                                </div>
+                                                                <div class="price">
+                                                                                                                                        <span>$<span class="counter">50</span></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                                                <div class="properties pb-30">
+                                                    <div class="properties-card">
+                                                        <div class="properties-img">
+                                                            <a href="book-details.html"><img
+                                                                    src="images/best_selling6.jpg" alt></a>
+                                                        </div>
+                                                        <div class="properties-caption properties-caption2">
+                                                            <h3><a href="book-details.html">Moon Dance</a></h3>
+                                                            <p>J. R Rain</p>
+                                                            <div
+                                                                class="properties-footer d-flex justify-content-between align-items-center">
+                                                                <div class="review">
+                                                                    <div class="rating">
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-half"></i>
+                                                                    </div>
+                                                                                    <p>(<span class="counter">120</span> Review)</p> 
+                                                                </div>
+                                                                <div class="price">
+                                                                                                                                        <span>$<span class="counter">50</span></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                                                <div class="properties pb-30">
+                                                    <div class="properties-card">
+                                                        <div class="properties-img">
+                                                            <a href="book-details.html"><img
+                                                                    src="images/best_selling4.jpg" alt></a>
+                                                        </div>
+                                                        <div class="properties-caption properties-caption2">
+                                                            <h3><a href="book-details.html">Moon Dance</a></h3>
+                                                            <p>J. R Rain</p>
+                                                            <div
+                                                                class="properties-footer d-flex justify-content-between align-items-center">
+                                                                <div class="review">
+                                                                    <div class="rating">
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-half"></i>
+                                                                    </div>
+                                                                                    <p>(<span class="counter">120</span> Review)</p> 
+                                                                </div>
+                                                                <div class="price">
+                                                                                                                                        <span>$<span class="counter">50</span></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="nav-five" role="tabpanel"
+                                        aria-labelledby="nav-five-tab">
+
+                                        <div class="row">
+                                            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                                                <div class="properties pb-30">
+                                                    <div class="properties-card">
+                                                        <div class="properties-img">
+                                                            <a href="book-details.html"><img
+                                                                    src="images/best_selling7.jpg" alt></a>
+                                                        </div>
+                                                        <div class="properties-caption properties-caption2">
+                                                            <h3><a href="book-details.html">Moon Dance</a></h3>
+                                                            <p>J. R Rain</p>
+                                                            <div
+                                                                class="properties-footer d-flex justify-content-between align-items-center">
+                                                                <div class="review">
+                                                                    <div class="rating">
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-half"></i>
+                                                                    </div>
+                                                                                    <p>(<span class="counter">120</span> Review)</p> 
+                                                                </div>
+                                                                <div class="price">
+                                                                                                                                        <span>$<span class="counter">50</span></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                                                <div class="properties pb-30">
+                                                    <div class="properties-card">
+                                                        <div class="properties-img">
+                                                            <a href="book-details.html"><img
+                                                                    src="images/best_selling8.jpg" alt></a>
+                                                        </div>
+                                                        <div class="properties-caption properties-caption2">
+                                                            <h3><a href="book-details.html">Moon Dance</a></h3>
+                                                            <p>J. R Rain</p>
+                                                            <div
+                                                                class="properties-footer d-flex justify-content-between align-items-center">
+                                                                <div class="review">
+                                                                    <div class="rating">
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-half"></i>
+                                                                    </div>
+                                                                                    <p>(<span class="counter">120</span> Review)</p> 
+                                                                </div>
+                                                                <div class="price">
+                                                                                                                                        <span>$<span class="counter">50</span></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                                                <div class="properties pb-30">
+                                                    <div class="properties-card">
+                                                        <div class="properties-img">
+                                                            <a href="book-details.html"><img
+                                                                    src="images/best_selling6.jpg" alt></a>
+                                                        </div>
+                                                        <div class="properties-caption properties-caption2">
+                                                            <h3><a href="book-details.html">Moon Dance</a></h3>
+                                                            <p>J. R Rain</p>
+                                                            <div
+                                                                class="properties-footer d-flex justify-content-between align-items-center">
+                                                                <div class="review">
+                                                                    <div class="rating">
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-half"></i>
+                                                                    </div>
+                                                                                    <p>(<span class="counter">120</span> Review)</p> 
+                                                                </div>
+                                                                <div class="price">
+                                                                                                                                        <span>$<span class="counter">50</span></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                                                <div class="properties pb-30">
+                                                    <div class="properties-card">
+                                                        <div class="properties-img">
+                                                            <a href="book-details.html"><img
+                                                                    src="images/best_selling4.jpg" alt></a>
+                                                        </div>
+                                                        <div class="properties-caption properties-caption2">
+                                                            <h3><a href="book-details.html">Moon Dance</a></h3>
+                                                            <p>J. R Rain</p>
+                                                            <div
+                                                                class="properties-footer d-flex justify-content-between align-items-center">
+                                                                <div class="review">
+                                                                    <div class="rating">
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-half"></i>
+                                                                    </div>
+                                                                                    <p>(<span class="counter">120</span> Review)</p> 
+                                                                </div>
+                                                                <div class="price">
+                                                                                                                                        <span>$<span class="counter">50</span></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                                                <div class="properties pb-30">
+                                                    <div class="properties-card">
+                                                        <div class="properties-img">
+                                                            <a href="book-details.html"><img
+                                                                    src="images/best_selling9.jpg" alt></a>
+                                                        </div>
+                                                        <div class="properties-caption properties-caption2">
+                                                            <h3><a href="book-details.html">Moon Dance</a></h3>
+                                                            <p>J. R Rain</p>
+                                                            <div
+                                                                class="properties-footer d-flex justify-content-between align-items-center">
+                                                                <div class="review">
+                                                                    <div class="rating">
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-half"></i>
+                                                                    </div>
+                                                                                    <p>(<span class="counter">120</span> Review)</p> 
+                                                                </div>
+                                                                <div class="price">
+                                                                                                                                        <span>$<span class="counter">50</span></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                                                <div class="properties pb-30">
+                                                    <div class="properties-card">
+                                                        <div class="properties-img">
+                                                            <a href="book-details.html"><img
+                                                                    src="images/best_selling2.jpg" alt></a>
+                                                        </div>
+                                                        <div class="properties-caption properties-caption2">
+                                                            <h3><a href="book-details.html">Moon Dance</a></h3>
+                                                            <p>J. R Rain</p>
+                                                            <div
+                                                                class="properties-footer d-flex justify-content-between align-items-center">
+                                                                <div class="review">
+                                                                    <div class="rating">
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-fill"></i>
+                                                                        <i class="bi bi-star-half"></i>
+                                                                    </div>
+                                                                    <p>(<span class="counter">120</span> Review)</p>
+                                                                </div>
+                                                                <div class="price">
+                                                                                                                                        <span>$<span class="counter">50</span></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xl-12">
+                                        <div class="more-btn text-center mt-15">
+                                            <a href="#" class="border-btn border-btn2 more-btn2">Browse More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+
+                        <section class="container wow animate__animated animate__backInRight">
+                            <div class="row align-items-center justify-content-between">
+                                <div class="col-xl-6 col-lg-6">
+                                    <div class="wantToWork-area w-padding2 mb-30"
+                                        style="background-image: url(images/wants-bg1.jpg);">
+                                        <h2>The History<br> of Phipino</h2>
+                                        <div class="linking">
+                                            <a href="#" class="btn wantToWork-btn">View Details</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6">
+                                    <div class="wantToWork-area w-padding2 mb-30"
+                                        style="background-image: url(images/wants-bg2.jpg);">
+                                        <h2>Wilma Mumduya</h2>
+                                        <div class="linking">
+                                            <a href="#" class="btn wantToWork-btn">View Details</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+
+                        <section class="subscribe-area wow animate__animated animate__slideInUp">
+                            <div class="container">
+                                <div class="subscribe-caption text-center  subscribe-padding section-img2-bg"
+                                    style="background-image: url(images/section-bg1.jpg);">
+                                    <div class="row justify-content-center">
+                                        <div class="col-xl-6 col-lg-8 col-md-9">
+                                            <h3>Join Newsletter</h3>
+                                            <p>Lorem started its journey with cast iron (CI) products in 1980. The
+                                                initial main objective was to ensure pure water and affordable
+                                                irrigation.</p>
+                                            <form action="#">
+                                                <input type="text" placeholder="Enter your email">
+                                                <button class="subscribe-btn">Subscribe</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        </main>
+                        <footer class="wow animate__animated animate__bounceIn">
+                            <div class="footer-wrappper section-bg">
+                                <div class="footer-area footer-padding">
+                                    <div class="container">
+                                        <div class="row justify-content-between">
+                                            <div class="col-xl-3 col-lg-5 col-md-4 col-sm-6">
+                                                <div class="single-footer-caption mb-50">
+                                                    <div class="single-footer-caption mb-30">
+
+                                                        <div class="footer-logo mb-25">
+                                                            <a href="index.html"><img src="images/logo2_footer.png"
+                                                                    alt></a>
+                                                        </div>
+                                                        <div class="footer-tittle">
+                                                            <div class="footer-pera">
+                                                                <p>Get the breathing space now, and we’ll extend your
+                                                                    term at the other end year for go.</p>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="footer-social">
+                                                            <a href="https://bit.ly/sai4ull">
+                                                                <i class="bi bi-facebook"></i></a>
+                                                            <a href="#"><i class="bi bi-instagram"></i></a>
+                                                            <a href="#"><i class="bi bi-linkedin"></i></a>
+                                                            <a href="#"><i class="bi bi-youtube"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-5">
+                                                <div class="single-footer-caption mb-50">
+                                                    <div class="footer-tittle">
+                                                        <h4>Book Category</h4>
+                                                        <ul>
+                                                            <li><a href="#">History</a></li>
+                                                            <li><a href="#">Horror - Thriller</a></li>
+                                                            <li><a href="#">Love Stories</a></li>
+                                                            <li><a href="#">Science Fiction</a></li>
+                                                            <li><a href="#">Business</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                                                <div class="single-footer-caption mb-50">
+                                                    <div class="footer-tittle">
+                                                        <h4>&nbsp;</h4>
+                                                        <ul>
+                                                            <li><a href="#">Biography</a></li>
+                                                            <li><a href="#">Astrology</a></li>
+                                                            <li><a href="#">Digital Marketing</a></li>
+                                                            <li><a href="#">Software Development</a></li>
+                                                            <li><a href="#">Ecommerce</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
+                                                <div class="single-footer-caption mb-50">
+                                                    <div class="footer-tittle">
+                                                        <h4>Site Map</h4>
+                                                        <ul class="mb-20">
+                                                            <li><a href="#">Home</a></li>
+                                                            <li><a href="#">About Us</a></li>
+                                                            <li><a href="#">FAQs</a></li>
+                                                            <li><a href="#">Blog</a></li>
+                                                            <li><a href="#">Contact</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </footer>
+
+</body>
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        pagination: {
+            el: ".swiper-pagination",
+            dynamicBullets: true,
+            autoplay: true,
+        },
+    });
+</script>
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="slick/slick.js" type="text/javascript" charset="utf-8"></script>
+<script>
+    $(".regular").slick({
+        dots: true,
+        infinite: true,
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        autoplay: true,
+        responsive: [
+            {
+                breakpoint: 800,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+
+                }
+            }
+        ]
+    });
+
+</script>
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+    });
+</script>
+<script>
+    jQuery(document).ready(function () {
+        $('.counter').counterUp({
+            delay: 10,
+            time: 1000
+        });
+    });
+
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"
+    integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+<script src="jquery.counterup.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script>
+new WOW().init();
+</script>
+</html>
